@@ -43,6 +43,9 @@ GROUP BY `city_id`, `datasource_id`
 ```
 
 This tool use calcite to do the optimization and transform the sql to more efficient way  
+## Add clickhouse aggregators
+
+If you get `Expression 'xx' is not being grouped` error, please add a new aggregator in class `ClickhouseAggregators`
 
 ## Usage
 ```java
